@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SistemaBancario.API/SistemaBancario.API.csproj" />
+  <Project Path="SistemaBancario.APP/SistemaBancario.APP.csproj" />
+  <Project Path="SistemaFolhaPagamento.APP/SistemaFolhaPagamento.APP.csproj" />
+</Solution>

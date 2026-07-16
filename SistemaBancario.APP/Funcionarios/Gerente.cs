@@ -1,4 +1,5 @@
-﻿using SistemaBancario.APP.Interfaces;
+﻿using SistemaBancario.APP.Contas;
+using SistemaBancario.APP.Interfaces;
 
 namespace SistemaBancario.APP.Funcionarios
 {
@@ -11,7 +12,8 @@ namespace SistemaBancario.APP.Funcionarios
             Nome = nome;
             SalarioBase = salario;
             Bonus = bonus;
-            Cargo = "Gerente";            
+            Cargo = "Gerente";
+            new ContaBancaria();
         }
         
         public decimal CalcularBonusNatalino()

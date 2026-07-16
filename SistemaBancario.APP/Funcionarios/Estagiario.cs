@@ -1,4 +1,6 @@
-﻿namespace SistemaBancario.APP.Funcionarios
+﻿using SistemaBancario.APP.Contas;
+
+namespace SistemaBancario.APP.Funcionarios
 {
     public class Estagiario : Funcionario
     {

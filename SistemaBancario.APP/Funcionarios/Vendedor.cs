@@ -1,4 +1,5 @@
-﻿using SistemaBancario.APP.Interfaces;
+﻿using SistemaBancario.APP.Contas;
+using SistemaBancario.APP.Interfaces;
 
 namespace SistemaBancario.APP.Funcionarios
 {

@@ -10,10 +10,11 @@ namespace SistemaBancario.APP.Funcionarios
         public ContaBancaria Conta {  get; set; }
         public string Departamento { get; set; }
 
-        public Funcionario(string nome, string cargo) 
+        public Funcionario(string nome, string cargo, string departamento) 
         {
             Nome = nome;
             Cargo = cargo;
+            Departamento = departamento;
             Conta = new ContaBancaria();           
         }
 

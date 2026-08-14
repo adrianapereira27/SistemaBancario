@@ -7,13 +7,10 @@ namespace SistemaBancario.APP.Funcionarios
     {
         public decimal Bonus { get; set; }
 
-        public Gerente(string nome, decimal salario, decimal bonus)
-        {
-            Nome = nome;
+        public Gerente(string nome, decimal salario, decimal bonus, string departamento) : base(nome, "Gerente", departamento)
+        {            
             SalarioBase = salario;
             Bonus = bonus;
-            Cargo = "Gerente";
-            new ContaBancaria();
         }
         
         public decimal CalcularBonusNatalino()

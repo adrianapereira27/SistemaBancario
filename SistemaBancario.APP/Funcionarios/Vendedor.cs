@@ -7,13 +7,10 @@ namespace SistemaBancario.APP.Funcionarios
     {        
         public decimal ComissaoVendas { get; set; }
         
-        public Vendedor(string nome, decimal salario, decimal comissaoVendas)
-        {
-            Nome = nome;
+        public Vendedor(string nome, decimal salario, decimal comissaoVendas, string departamento) : base(nome, "Vendedor", departamento)
+        {            
             SalarioBase = salario;
-            ComissaoVendas = comissaoVendas;
-            Cargo = "Vendedor";
-            new ContaBancaria();
+            ComissaoVendas = comissaoVendas;            
         }
         
         public decimal CalcularBonusNatalino()
